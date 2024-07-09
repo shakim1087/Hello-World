@@ -1,0 +1,6 @@
+export ZTL_USERNAME=support@zentral.com
+export ZTL_API_TOKEN=GAgRjDirDpLbi5nnZbrPPWIFWZjxYfWrBPT2gZibX20rXTX3rs1vqDChGGnL89bM
+export TF_VAR_fqdn="your-instance-name.zentral.cloud"
+export TF_VAR_api_token=$ZTL_API_TOKEN
+
+
