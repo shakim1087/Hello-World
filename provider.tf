@@ -5,13 +5,13 @@ terraform {
     }
   }
 
-backend "http" {
-  address        = "https://psumac24-ohio.zentral.cloud/api/terraform/backend/starter_kit/"
-  lock_address   = "https://psumac24-ohio.zentral.cloud/api/terraform/backend/starter_kit/lock/"
-  unlock_address = "https://psumac24-ohio.zentral.cloud/api/terraform/backend/starter_kit/lock/"
-  lock_method    = "POST"
-  unlock_method  = "DELETE"
-}
+  backend "http" {
+    address        = "https://psumac24-ohio.zentral.cloud/api/terraform/backend/starter_kit/"
+    lock_address   = "https://psumac24-ohio.zentral.cloud/api/terraform/backend/starter_kit/lock/"
+    unlock_address = "https://psumac24-ohio.zentral.cloud/api/terraform/backend/starter_kit/lock/"
+    lock_method    = "POST"
+    unlock_method  = "DELETE"
+  }
 }
 
 // configure the provider
